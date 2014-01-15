@@ -1,0 +1,164 @@
+body{
+	background-color: #F2EDC3;
+	font-family: 'bornregular', serif;
+	font-size: 10px;
+	color:#4b6169;
+
+}
+
+.navigation{
+	background-color: #E6D88D;
+	color:#5F7A84;
+}
+
+.banner{
+	margin-top: 60px;
+}
+
+.banner h1{
+	text-align: center;
+	font-size: 6em;
+	font-family: 'pacificoregular', serif;
+	color:#E15E4F;
+}
+
+h2, h4{
+	font-family: 'bornregular', serif;
+	font-size: 4em;
+}
+
+h3{
+	font-family: 'bornregular', serif;
+	font-size: 2em;
+}
+
+h5{
+	font-size: 2.2em;
+	font-family: 'bornregular', serif;
+
+}
+
+
+.subheader{
+	text-align: center;
+	font-family: 'bornregular', serif;
+	color:#4b6169;
+}
+
+.fotw{
+
+	padding: 20px 30px;
+	color:#4b6169;
+
+}
+.head{
+	text-align: center;
+}
+
+.head h2{
+	font-size: 4em;
+	border-bottom: solid 2px #4b6169;
+}
+
+li{
+	font-size: 2em;
+}
+
+.sidebar{
+	background-color: rgba(236, 240, 241,.3);
+	padding:30px 5px;
+	border-radius: 10px;
+	border-left: solid 1px #7E949C;
+	border-right: solid 1px #7E949C;
+}
+
+.instruc{
+	border-left: solid 1px #7E949C;
+}
+
+.candd{
+	border-radius: 30px;
+	border: solid 2px #D7942C;
+	width: 300px;
+}
+
+.about{
+	border-top: 3px dashed #7E949C;
+	margin-top: 20px;
+	font-size: 2em;
+}
+.img{
+	padding-top: 20px;	
+	margin-top: 20px;
+	border-top: 3px dashed #7E949C;
+}
+
+.img img{
+	border-radius: 30px;
+	border: solid 2px #D7942C;
+
+}
+
+
+@media(min-width: 991px){
+	.candd{
+		margin-left: 25%;
+	}
+	
+}
+
+
+
+@media (max-width: 992px){
+	.candd{
+		margin-left: 25%;
+	}
+
+	.sidebar{
+		display: none;
+	}
+
+	.instruc{
+		border-left: 0px solid white;
+		border-top: dashed 1px #7E949C;
+	}
+
+	.img img{
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+
+
+@media (max-width: 800px){
+	.candd{
+		margin-left: 25%;
+	}
+
+	.sidebar{
+		display: none;
+	}
+
+	.instruc{
+		border-left: 0px solid white;
+		border-top: dashed 1px #7E949C;
+	}
+
+	.about{
+		padding: 10px 40px;
+	}
+
+	.img img{
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 650px){
+	.candd{
+		margin-left: 0%;
+	}
+}
